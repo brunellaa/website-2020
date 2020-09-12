@@ -1,0 +1,40 @@
+@import "../../sass/variables";
+
+.about {
+  display: grid;
+  padding: 35vh 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  grid-template-areas: "about__info about__info about__picture about__links";
+  &__info {
+    grid-area: about__info;
+    &__title {
+      background: $dark-background;
+      margin-top: -20px;
+      padding-right: 20px;
+      margin-bottom: 0;
+      display: inline-block;
+    }
+    &__line {
+      color: $primary;
+      margin: 0;
+    }
+  }
+  &__picture img {
+    max-width: 90%;
+    margin: 5%;
+    // animation: bright-mutate 2s infinite;
+  }
+
+  &__links {
+    text-align: center;
+    grid-area: about__links;
+    border: 1px solid $primary;
+    border-radius: $standard-border-radius;
+    background: $dark-background;
+    &__more {
+      margin-bottom: 50px;
+    }
+  }
+}

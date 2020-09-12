@@ -1,0 +1,51 @@
+@import "variables";
+
+@keyframes move-it {
+  0% {
+    background-position: initial;
+  }
+  100% {
+    background-position: 100px 0px;
+  }
+}
+
+@keyframes hue-mutate {
+  0%,
+  100% {
+    filter: hue-rotate(-50deg);
+  }
+  50% {
+    filter: hue-rotate(50deg);
+  }
+}
+
+@keyframes bright-mutate {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(3);
+  }
+}
+
+@keyframes move-it {
+  0% {
+    background-position: initial;
+  }
+  100% {
+    background-position: 100px 0px;
+  }
+}
+
+// body {
+//   background: repeating-linear-gradient(
+//     45deg,
+//     $dark-background,
+//     $dark-background 5%,
+//     $dark-background2 5%,
+//     $dark-background2 10%
+//   );
+//   background-size: 100px 100px;
+//   animation: move-it 1s linear infinite;
+// }

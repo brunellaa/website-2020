@@ -1,0 +1,57 @@
+/* --------------- Font Family----------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Ubuntu:wght@700&display=swap");
+
+$Ubuntu: "Ubuntu", sans-serif;
+$open-sans: "Open Sans", sans-serif;
+
+/* --------------- Defaults Sizes----------------- */
+
+$heading-1: 64px;
+$heading-2: 48px;
+$heading-3: 36px;
+$heading-4: 28px;
+
+$large-text: 24px;
+$medium-text: 18px;
+$normal-text: 16px;
+$small-text: 13px;
+
+/* --------------- Font Defaults----------------- */
+body {
+  font-family: $open-sans;
+  font-weight: normal;
+  color: $lightest;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $Ubuntu;
+}
+h1 {
+  font-size: $heading-1;
+}
+h2 {
+  font-size: $heading-2;
+}
+h3 {
+  font-size: $heading-3;
+}
+h4 {
+  font-size: $heading-4;
+}
+span {
+  font-size: $medium-text;
+}
+p {
+  font-size: $medium-text;
+}
+a {
+  font-size: $medium-text;
+}
+.large-text {
+  font-size: $large-text;
+}

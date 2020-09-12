@@ -1,0 +1,19 @@
+@import "../../sass/variables";
+
+.hero {
+  background: $mid-background;
+  padding-top: 35vh;
+  height: 65vh;
+  &__greetings,
+  &__role {
+    color: $primary;
+  }
+  &__name,
+  &__role,
+  &__intro {
+    margin: 0;
+  }
+  &__intro {
+    margin-top: 20px;
+  }
+}

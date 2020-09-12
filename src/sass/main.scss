@@ -1,0 +1,41 @@
+/* --------------- Imports ---------------- */
+
+@import "variables";
+@import "typography";
+@import "animations";
+
+/* --------------- Global Layout Styles ---------------- */
+
+html {
+  background: $dark-background;
+}
+
+.max-content {
+  max-width: $max-site-width;
+  margin: auto;
+}
+
+/* --------------- Global UI Styles ---------------- */
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: $standard-border-radius;
+  font-size: $medium-text;
+  padding: $button-padding;
+  margin: 10px;
+  border: 2px solid $lightest;
+  background: $primary;
+  &__primary {
+    border-color: $primary;
+    color: $lightest;
+    &__void {
+      border-color: $primary;
+      background: $dark-background;
+      color: $primary;
+    }
+  }
+}
