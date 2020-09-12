@@ -2,23 +2,22 @@
 
 .about {
   display: grid;
-  padding: 35vh 0;
+  padding: 30vh 0;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 30px;
+  gap: $standard-grid-gap;
   grid-template-areas: "about__info about__info about__picture about__links";
   &__info {
     grid-area: about__info;
     &__title {
-      background: $dark-background;
       margin-top: -20px;
       padding-right: 20px;
       margin-bottom: 0;
       display: inline-block;
     }
     &__line {
+      margin: 0 0 0 190px;
       color: $primary;
-      margin: 0;
     }
   }
   &__picture img {
@@ -36,5 +35,18 @@
     &__more {
       margin-bottom: 50px;
     }
+  }
+  &__top-gradient {
+    z-index: -1;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(
+      180deg,
+      rgba(6, 13, 37, 1) 0%,
+      rgba(10, 19, 52, 1) 44%,
+      rgba(6, 13, 37, 0) 100%
+    );
   }
 }

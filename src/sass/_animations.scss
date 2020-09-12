@@ -38,14 +38,27 @@
   }
 }
 
-// body {
-//   background: repeating-linear-gradient(
-//     45deg,
-//     $dark-background,
-//     $dark-background 5%,
-//     $dark-background2 5%,
-//     $dark-background2 10%
-//   );
-//   background-size: 100px 100px;
-//   animation: move-it 1s linear infinite;
-// }
+@keyframes mainframe-fill {
+  0%,
+  100% {
+    fill: $lightest;
+  }
+  33% {
+    fill: $dark-background;
+  }
+  66% {
+    fill: $mid-background;
+  }
+}
+
+html {
+  background: repeating-linear-gradient(
+    45deg,
+    $dark-background,
+    $dark-background 5%,
+    $dark-background2 5%,
+    $dark-background2 10%
+  );
+  background-size: 100px 100px;
+  animation: move-it 3s linear infinite;
+}

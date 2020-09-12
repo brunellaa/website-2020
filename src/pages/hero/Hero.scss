@@ -1,9 +1,8 @@
 @import "../../sass/variables";
 
 .hero {
-  background: $mid-background;
   padding-top: 35vh;
-  height: 65vh;
+  height: calc(65vh - 77px);
   &__greetings,
   &__role {
     color: $primary;
@@ -15,5 +14,18 @@
   }
   &__intro {
     margin-top: 20px;
+  }
+  &__bottom-gradient {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(
+      0deg,
+      rgba(6, 13, 37, 1) 0%,
+      rgba(6, 13, 37, 1) 44%,
+      rgba(6, 13, 37, 0) 100%
+    );
   }
 }

@@ -9,6 +9,7 @@ export default function MainPage() {
       <Hero />
       <About />
       <Skills />
+      <About />
     </main>
   );
 }

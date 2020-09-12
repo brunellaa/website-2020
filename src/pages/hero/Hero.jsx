@@ -1,9 +1,11 @@
 import React from "react";
+import Background from "../../components/background/Background";
 import "./Hero.scss";
 
 export default function Hero() {
   return (
     <section className="hero">
+      <Background />
       <div className="max-content">
         <span className="hero__greetings">Hello, My name is</span>
         <h1 className="hero__name">Alejandro Brunella</h1>
@@ -13,6 +15,7 @@ export default function Hero() {
           web designer and User Interface interface developer.
         </p>
       </div>
+      <div className="hero__bottom-gradient"></div>
     </section>
   );
 }
