@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../assets/images/Logo-Alejandro-Brunella.svg";
 import "./Header.scss";
 
-export default function Header() {
+const Header = () => {
   return (
     <header>
       <img src={Logo} className="header__logo" alt="Alejandro Brunella Logo" />
@@ -22,4 +22,6 @@ export default function Header() {
       </nav>
     </header>
   );
-}
+};
+
+export default Header;

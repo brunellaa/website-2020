@@ -1,4 +1,5 @@
 @import "../../sass/variables";
+@import "../../sass/typography";
 
 .hero {
   padding-top: 35vh;
@@ -14,6 +15,10 @@
   }
   &__intro {
     margin-top: 20px;
+    margin-bottom: $standard-padding;
+  }
+  &__contact-me {
+    font-size: $large-text;
   }
   &__bottom-gradient {
     z-index: -1;

@@ -18,6 +18,9 @@ a {
 }
 
 .button {
+  &__big {
+    font-size: $large-text;
+  }
   cursor: pointer;
   border-radius: $standard-border-radius;
   font-size: $medium-text;
