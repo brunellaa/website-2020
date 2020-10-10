@@ -1,11 +1,9 @@
 import React from "react";
-import Background from "../../components/background/Background";
 import "./Hero.scss";
 
 export default function Hero() {
   return (
     <section className="hero">
-      <Background />
       <div className="max-content">
         <span className="hero__greetings">Hello, My name is</span>
         <h1 className="hero__name">Alejandro Brunella</h1>
@@ -14,7 +12,7 @@ export default function Hero() {
           12 years experience as a high-quality <br />
           web designer and User Interface interface developer.
         </p>
-        <button className="button button__primary__void hero__contact-me">
+        <button className="button button__primary__void hero__contact-me ">
           Contact me
         </button>
       </div>

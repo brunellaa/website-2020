@@ -5,11 +5,14 @@
 @import "animations";
 
 /* --------------- Global Layout Styles ---------------- */
-// .App {
-//   background: $dark-background2;
-// }
+
 html {
   background-color: black;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 .max-content {
@@ -47,4 +50,21 @@ a {
 
 ::selection {
   background-color: $secondary-C;
+}
+
+section {
+  padding: 40px;
+}
+
+.desktop-hide {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  .desktop-hide {
+    display: block;
+  }
+  .mobile-hide {
+    display: none;
+  }
 }

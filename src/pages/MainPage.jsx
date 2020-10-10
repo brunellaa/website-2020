@@ -11,8 +11,10 @@ export default function MainPage() {
       <Hero />
       <About />
       <Skills />
-      <Work />
-      <Contact />
+      <div className="mobile-hide">
+        <Work />
+        <Contact />
+      </div>
     </main>
   );
 }

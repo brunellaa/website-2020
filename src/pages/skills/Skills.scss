@@ -103,3 +103,50 @@
     }
   }
 }
+
+@media only screen and (max-width: 760px) {
+  .skills {
+    background: $dark-background2;
+    padding: 40px 40px;
+    text-align: left;
+    &__title {
+      text-align: center;
+      display: block;
+      padding: 20px 0;
+      border-bottom: 7px solid $primary;
+    }
+    &__traits {
+      display: grid;
+      padding: 20px 0;
+      grid-template-columns: 1fr;
+      grid-auto-rows: auto;
+      gap: $standard-grid-gap;
+      grid-template-areas:
+        "skills__traits__1"
+        "skills__traits__2"
+        "skills__traits__3"
+        "skills__traits__4"
+        "skills__traits__5"
+        "skills__traits__6"
+        "skills__traits__main-skills";
+
+      &__main-skills {
+        border-left: none;
+        ul {
+          margin-left: 0;
+          text-align: center;
+          li {
+            display: inline-block;
+            padding-left: 40px;
+          }
+        }
+      }
+    }
+    h4 {
+      margin: 10px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}

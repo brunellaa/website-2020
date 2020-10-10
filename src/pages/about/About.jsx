@@ -1,5 +1,4 @@
 import React from "react";
-// import AlejandroBrunella from "../../assets/images/alejandro-brunella.png";
 import AlejandroBrunella2 from "../../assets/images/croped-nobg-idea2.png";
 import "./About.scss";
 

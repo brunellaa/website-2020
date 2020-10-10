@@ -2,7 +2,7 @@
 @import "../../sass/typography";
 
 .about {
-  background-color: $dark-background;
+  background-color: $dark-background2;
   .max-content {
     display: grid;
     padding: 25vh 0;
@@ -25,9 +25,9 @@
     }
   }
   &__picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-area: about__picture;
+    align-self: center;
+    justify-self: center;
     img {
       max-width: 90%;
       margin: 5%;
@@ -40,17 +40,31 @@
       margin: 50px 0;
     }
   }
-  // &__top-gradient {
-  //   z-index: -1;
-  //   position: relative;
-  //   top: 0;
-  //   width: 100%;
-  //   height: 250px;
-  //   background: linear-gradient(
-  //     180deg,
-  //     rgba(6, 13, 37, 1) 0%,
-  //     rgba(10, 19, 52, 1) 44%,
-  //     rgba(6, 13, 37, 0) 100%
-  //   );
-  // }
+}
+
+@media only screen and (max-width: 760px) {
+  .about {
+    background-color: $dark-background;
+    .max-content {
+      display: grid;
+      padding: 40px 0;
+      grid-template-columns: 1fr;
+      grid-auto-rows: auto;
+      gap: 0;
+      grid-template-areas:
+        "about__picture"
+        "about__info"
+        "about__links";
+    }
+    &__info {
+      grid-area: about__info;
+      margin-top: 40px;
+    }
+    &__picture {
+      margin: 0 50px;
+    }
+    &__links {
+      grid-area: about__links;
+    }
+  }
 }

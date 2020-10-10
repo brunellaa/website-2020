@@ -39,6 +39,7 @@ export default function skills() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
           <div className="skills__traits__main-skills">
+            <h3 className="desktop-hide">Skills</h3>
             <ul>
               <li className="html">HTML</li>
               <li className="css">CSS / SASS</li>
@@ -50,7 +51,7 @@ export default function skills() {
               <li className="vscode">VSCode</li>
               <hr />
               <li className="xd">Adobe XD</li>
-              <li className="psd">Phoptohop</li>
+              <li className="psd">Photoshop</li>
               <li className="ai">Illustrator</li>
               <li className="figma">Figma</li>
             </ul>

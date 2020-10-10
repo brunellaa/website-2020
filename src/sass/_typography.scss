@@ -55,3 +55,18 @@ a {
 .large-text {
   font-size: $large-text;
 }
+
+@media only screen and (max-width: 760px) {
+  h1 {
+    font-size: $heading-2;
+  }
+  h2 {
+    font-size: $heading-3;
+  }
+  h3 {
+    font-size: $heading-4;
+  }
+  p {
+    font-size: $normal-text;
+  }
+}

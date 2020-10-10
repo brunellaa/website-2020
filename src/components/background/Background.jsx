@@ -6,7 +6,7 @@ export default function Background() {
   tick();
   function tick() {
     requestAnimationFrame(tick);
-    rot += 0.02;
+    rot += 0.04;
     document.body.style.setProperty("--rot", `${rot}deg`);
   }
   return (

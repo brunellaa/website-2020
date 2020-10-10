@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header>
       <img src={Logo} className="header__logo" alt="Alejandro Brunella Logo" />
-      <nav className="header__nav">
+      <nav role="navigation" className="header__nav mobile-hide">
         <a className="header__nav__link" href="/">
           About
         </a>
