@@ -51,14 +51,14 @@
   }
 }
 
-html {
-  background: repeating-linear-gradient(
-    45deg,
-    $dark-background,
-    $dark-background 5%,
-    $dark-background2 5%,
-    $dark-background2 10%
-  );
-  background-size: 100px 100px;
-  animation: move-it 3s linear infinite;
-}
+// html {
+//   background: repeating-linear-gradient(
+//     45deg,
+//     $dark-background,
+//     $dark-background 5%,
+//     $dark-background2 5%,
+//     $dark-background2 10%
+//   );
+//   background-size: 100px 100px;
+//   animation: move-it 3s linear infinite;
+// }

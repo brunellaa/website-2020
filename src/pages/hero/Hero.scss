@@ -18,19 +18,19 @@
     margin-bottom: $standard-padding;
   }
   &__contact-me {
-    font-size: $large-text;
+    background-color: transparent;
   }
-  &__bottom-gradient {
-    z-index: -1;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(
-      0deg,
-      rgba(6, 13, 37, 1) 0%,
-      rgba(6, 13, 37, 1) 44%,
-      rgba(6, 13, 37, 0) 100%
-    );
-  }
+  // &__bottom-gradient {
+  //   z-index: -1;
+  //   position: absolute;
+  //   bottom: 0;
+  //   width: 100%;
+  //   height: 150px;
+  //   background: linear-gradient(
+  //     0deg,
+  //     rgba(6, 13, 37, 1) 0%,
+  //     rgba(6, 13, 37, 1) 44%,
+  //     rgba(6, 13, 37, 0) 100%
+  //   );
+  // }
 }

@@ -3,6 +3,7 @@ import Hero from "./hero/Hero";
 import About from "./about/About";
 import Skills from "./skills/Skills";
 import Work from "./work/Work";
+import Contact from "./contact/Contact";
 
 export default function MainPage() {
   return (
@@ -11,6 +12,7 @@ export default function MainPage() {
       <About />
       <Skills />
       <Work />
+      <Contact />
     </main>
   );
 }

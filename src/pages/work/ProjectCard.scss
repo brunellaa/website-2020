@@ -1,0 +1,64 @@
+@import "../../sass/variables";
+@import "../../sass/typography";
+
+.work__card {
+  &__featured {
+    display: grid;
+    grid-template-areas: ". .";
+    margin: 180px 0;
+    border-radius: $standard-border-radius;
+    border: 1px solid $primary;
+    &__info {
+      padding: 40px;
+    }
+    &__image {
+      padding: 0;
+      margin: 0;
+    }
+    &__type {
+      color: $primary;
+      text-transform: uppercase;
+      font-size: $small-text;
+    }
+    &__name {
+      margin: 10px 0 30px 0;
+    }
+    &__description {
+      font-size: $normal-text;
+    }
+  }
+  &__resources {
+    display: grid;
+    grid-template-areas: ". .";
+    .links {
+      padding-right: 30px;
+      .button {
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        display: block;
+        width: 180px;
+      }
+    }
+    .stack {
+      border-left: 1px solid $primary;
+      box-sizing: border-box;
+      padding-left: 30px;
+      &__title {
+        color: $primary;
+        font-size: $small-text;
+      }
+      &__list {
+        text-transform: uppercase;
+        list-style-type: none;
+        padding: 0;
+        li:before {
+          content: "•"; /* Insert content that looks like bullets */
+          padding-right: 8px;
+          color: $primary; /* Or a color you prefer */
+        }
+      }
+    }
+  }
+}

@@ -1,13 +1,12 @@
 import React from "react";
-import { ReactComponent as Icon1 } from "../../assets/icons/ux.svg";
+import { ReactComponent as Icon1 } from "../../assets/icons/feature-responsive.svg";
 import "./Skills.scss";
 
 export default function skills() {
   return (
     <section className="skills">
       <div className="max-content">
-        <hr className="skills__line" />
-        <h3 className="skills__title">Skills</h3>
+        <h2 className="skills__title">My Skills</h2>
         <div className="skills__traits">
           <div className="skills__traits__1">
             <Icon1 className="skills__traits__icon" />
@@ -29,10 +28,33 @@ export default function skills() {
             <h4>Performance</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
-        </div>
-        <div className="skills__grid">
-          <div className="skills__grid__front">f</div>
-          <div className="skills_grid__design">d</div>
+          <div className="skills__traits__5">
+            <Icon1 className="skills__traits__icon" />
+            <h4>Performance</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div className="skills__traits__6">
+            <Icon1 className="skills__traits__icon" />
+            <h4>Performance</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div className="skills__traits__main-skills">
+            <ul>
+              <li className="html">HTML</li>
+              <li className="css">CSS / SASS</li>
+              <li className="js">Javascript</li>
+              <li className="ts">Typescript</li>
+              <li className="react">React</li>
+              <li className="node">Node.js</li>
+              <li className="">git</li>
+              <li className="vscode">VSCode</li>
+              <hr />
+              <li className="xd">Adobe XD</li>
+              <li className="psd">Phoptohop</li>
+              <li className="ai">Illustrator</li>
+              <li className="figma">Figma</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

@@ -1,52 +1,56 @@
 @import "../../sass/variables";
+@import "../../sass/typography";
 
 .about {
-  display: grid;
-  padding: 30vh 0;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: $standard-grid-gap;
-  grid-template-areas: "about__info about__info about__picture about__links";
+  background-color: $dark-background;
+  .max-content {
+    display: grid;
+    padding: 25vh 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: $standard-grid-gap;
+    grid-template-areas: "about__info about__info about__picture about__links";
+  }
   &__info {
     grid-area: about__info;
     &__title {
-      margin-top: -20px;
-      padding-right: 20px;
-      margin-bottom: 0;
+      border-bottom: 7px solid $primary;
+      margin: 0;
+      padding: 0 20px 20px 0;
+      margin-bottom: 20px;
       display: inline-block;
     }
-    &__line {
-      margin: 0 0 0 190px;
-      color: $primary;
+    &__text {
+      font-size: $normal-text;
     }
   }
-  &__picture img {
-    max-width: 90%;
-    margin: 5%;
-    // animation: bright-mutate 2s infinite;
+  &__picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 90%;
+      margin: 5%;
+    }
   }
-
   &__links {
     text-align: center;
     grid-area: about__links;
-    border: 1px solid $primary;
-    border-radius: $standard-border-radius;
-    background: $dark-background;
     &__more {
-      margin-bottom: 50px;
+      margin: 50px 0;
     }
   }
-  &__top-gradient {
-    z-index: -1;
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 250px;
-    background: linear-gradient(
-      180deg,
-      rgba(6, 13, 37, 1) 0%,
-      rgba(10, 19, 52, 1) 44%,
-      rgba(6, 13, 37, 0) 100%
-    );
-  }
+  // &__top-gradient {
+  //   z-index: -1;
+  //   position: relative;
+  //   top: 0;
+  //   width: 100%;
+  //   height: 250px;
+  //   background: linear-gradient(
+  //     180deg,
+  //     rgba(6, 13, 37, 1) 0%,
+  //     rgba(10, 19, 52, 1) 44%,
+  //     rgba(6, 13, 37, 0) 100%
+  //   );
+  // }
 }

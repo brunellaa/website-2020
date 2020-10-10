@@ -1,10 +1,18 @@
 @import "../../sass/variables";
+@import "../../sass/typography";
 
 .work {
-  display: grid;
-  padding: 30vh 0;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: $standard-grid-gap;
-  grid-template-areas: "about__info about__info about__picture about__links";
+  padding: 25vh 0;
+  // background-color: $dark-background2;
+  &__title {
+    display: inline-block;
+    margin: 0;
+    // padding: 20px 0;
+    border-bottom: 7px solid $primary;
+  }
+  .small-card-container {
+    display: grid;
+    grid-template-areas: ". .";
+    gap: 30px;
+  }
 }

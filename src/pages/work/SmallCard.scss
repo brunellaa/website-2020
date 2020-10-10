@@ -1,0 +1,43 @@
+@import "../../sass/variables";
+@import "../../sass/animations";
+@import "../../sass/typography";
+
+.small__card {
+  border: 1px solid $primary;
+  border-radius: $standard-border-radius;
+  padding: 0;
+  &__header {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 30px;
+    .header-links svg {
+      margin-left: 15px;
+    }
+  }
+  &__name {
+    margin: 0;
+    display: flex;
+  }
+  &__body {
+    background-color: $mid-background;
+    border-radius: 0 0 20px 20px;
+    padding: 20px 30px;
+  }
+  &__description {
+    font-size: $normal-text;
+  }
+  &__stack {
+    list-style: none;
+    padding: 0;
+    li {
+      display: inline;
+      margin-right: 15px;
+      text-transform: uppercase;
+      color: $primary;
+      &:before {
+        content: "•";
+        padding-right: 8px;
+      }
+    }
+  }
+}

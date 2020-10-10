@@ -1,0 +1,39 @@
+@import "../../sass/variables";
+@import "../../sass/typography";
+
+.contact {
+  background-color: $dark-background;
+  text-align: center;
+  &__info {
+    padding: 25vh 0;
+  }
+  &__invite {
+    color: $primary;
+    font-size: $normal-text;
+  }
+  &__title {
+    padding: 0;
+  }
+  &__icons-list {
+    padding: 0;
+    margin-top: 30px;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin: 10px;
+    }
+  }
+  footer {
+    background-color: $dark-background2;
+    p {
+      margin: 0;
+      padding: 30px;
+      font-size: $normal-text;
+      color: $primary;
+      .name {
+        font-size: $normal-text;
+        color: $lightest;
+      }
+    }
+  }
+}

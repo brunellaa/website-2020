@@ -6,7 +6,7 @@
 
 .background-container {
   background-color: $dark-background2;
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   z-index: -1;
   opacity: 1;
@@ -17,8 +17,6 @@
     left: 50%;
     top: 50%;
     position: absolute;
-    // height: calc(100% - 0.5vh);
-    // width: calc(100% - 0.5vw);
     height: 90vw;
     width: 90vw;
     border: 3px solid #4e54ff25;

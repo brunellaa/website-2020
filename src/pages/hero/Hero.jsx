@@ -15,7 +15,7 @@ export default function Hero() {
           web designer and User Interface interface developer.
         </p>
         <button className="button button__primary__void hero__contact-me">
-          Contact me!
+          Contact me
         </button>
       </div>
       <div className="hero__bottom-gradient"></div>
