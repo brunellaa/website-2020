@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/react-developer-website/static/css/main.d0c832a9.chunk.css",
-    "main.js": "/react-developer-website/static/js/main.eaadcc6a.chunk.js",
-    "main.js.map": "/react-developer-website/static/js/main.eaadcc6a.chunk.js.map",
+    "main.css": "/react-developer-website/static/css/main.fcd29be4.chunk.css",
+    "main.js": "/react-developer-website/static/js/main.ddffb092.chunk.js",
+    "main.js.map": "/react-developer-website/static/js/main.ddffb092.chunk.js.map",
     "runtime-main.js": "/react-developer-website/static/js/runtime-main.ca5a0468.js",
     "runtime-main.js.map": "/react-developer-website/static/js/runtime-main.ca5a0468.js.map",
-    "static/js/2.837dd9af.chunk.js": "/react-developer-website/static/js/2.837dd9af.chunk.js",
-    "static/js/2.837dd9af.chunk.js.map": "/react-developer-website/static/js/2.837dd9af.chunk.js.map",
+    "static/css/2.eb43dee1.chunk.css": "/react-developer-website/static/css/2.eb43dee1.chunk.css",
+    "static/js/2.bee8d624.chunk.js": "/react-developer-website/static/js/2.bee8d624.chunk.js",
+    "static/js/2.bee8d624.chunk.js.map": "/react-developer-website/static/js/2.bee8d624.chunk.js.map",
     "index.html": "/react-developer-website/index.html",
-    "precache-manifest.63b90f6720ee64692b29118eaea6a228.js": "/react-developer-website/precache-manifest.63b90f6720ee64692b29118eaea6a228.js",
+    "precache-manifest.17a6b38a7f90f9db1d5523d4396f3af5.js": "/react-developer-website/precache-manifest.17a6b38a7f90f9db1d5523d4396f3af5.js",
     "service-worker.js": "/react-developer-website/service-worker.js",
-    "static/css/main.d0c832a9.chunk.css.map": "/react-developer-website/static/css/main.d0c832a9.chunk.css.map",
-    "static/js/2.837dd9af.chunk.js.LICENSE.txt": "/react-developer-website/static/js/2.837dd9af.chunk.js.LICENSE.txt",
+    "static/css/2.eb43dee1.chunk.css.map": "/react-developer-website/static/css/2.eb43dee1.chunk.css.map",
+    "static/css/main.fcd29be4.chunk.css.map": "/react-developer-website/static/css/main.fcd29be4.chunk.css.map",
+    "static/js/2.bee8d624.chunk.js.LICENSE.txt": "/react-developer-website/static/js/2.bee8d624.chunk.js.LICENSE.txt",
     "static/media/Logo-Alejandro-Brunella.svg": "/react-developer-website/static/media/Logo-Alejandro-Brunella.9bd23898.svg",
     "static/media/croped-nobg-idea2.png": "/react-developer-website/static/media/croped-nobg-idea2.8a27f3d1.png",
-    "static/media/ux.d825847d.svg": "/react-developer-website/static/media/ux.d825847d.svg"
+    "static/media/feature-responsive.ac4eb0bb.svg": "/react-developer-website/static/media/feature-responsive.ac4eb0bb.svg",
+    "static/media/Skills.scss": "/react-developer-website/static/media/icon-xd.655bc6ef.svg",
+    "static/media/icon-ft-codepen.1d54bca5.svg": "/react-developer-website/static/media/icon-ft-codepen.1d54bca5.svg",
+    "static/media/icon-ft-gh.ef00db9b.svg": "/react-developer-website/static/media/icon-ft-gh.ef00db9b.svg",
+    "static/media/icon-ft-li.4bf798a5.svg": "/react-developer-website/static/media/icon-ft-li.4bf798a5.svg",
+    "static/media/icon-ft-tw.9a4008ec.svg": "/react-developer-website/static/media/icon-ft-tw.9a4008ec.svg",
+    "static/media/icon-github.64cf4c05.svg": "/react-developer-website/static/media/icon-github.64cf4c05.svg",
+    "static/media/icon-link.723049cb.svg": "/react-developer-website/static/media/icon-link.723049cb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ca5a0468.js",
-    "static/js/2.837dd9af.chunk.js",
-    "static/css/main.d0c832a9.chunk.css",
-    "static/js/main.eaadcc6a.chunk.js"
+    "static/css/2.eb43dee1.chunk.css",
+    "static/js/2.bee8d624.chunk.js",
+    "static/css/main.fcd29be4.chunk.css",
+    "static/js/main.ddffb092.chunk.js"
   ]
 }
