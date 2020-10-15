@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-developer-website/static/css/main.314fdb96.chunk.css",
-    "main.js": "/react-developer-website/static/js/main.933d09c6.chunk.js",
-    "main.js.map": "/react-developer-website/static/js/main.933d09c6.chunk.js.map",
+    "main.css": "/react-developer-website/static/css/main.36290cb1.chunk.css",
+    "main.js": "/react-developer-website/static/js/main.35531152.chunk.js",
+    "main.js.map": "/react-developer-website/static/js/main.35531152.chunk.js.map",
     "runtime-main.js": "/react-developer-website/static/js/runtime-main.ca5a0468.js",
     "runtime-main.js.map": "/react-developer-website/static/js/runtime-main.ca5a0468.js.map",
     "static/css/2.eb43dee1.chunk.css": "/react-developer-website/static/css/2.eb43dee1.chunk.css",
     "static/js/2.af6348f2.chunk.js": "/react-developer-website/static/js/2.af6348f2.chunk.js",
     "static/js/2.af6348f2.chunk.js.map": "/react-developer-website/static/js/2.af6348f2.chunk.js.map",
     "index.html": "/react-developer-website/index.html",
-    "precache-manifest.0ecb13ff6d781504032843088fbbff3e.js": "/react-developer-website/precache-manifest.0ecb13ff6d781504032843088fbbff3e.js",
+    "precache-manifest.c954a936add4cf181bccfa7ede2eddee.js": "/react-developer-website/precache-manifest.c954a936add4cf181bccfa7ede2eddee.js",
     "service-worker.js": "/react-developer-website/service-worker.js",
     "static/css/2.eb43dee1.chunk.css.map": "/react-developer-website/static/css/2.eb43dee1.chunk.css.map",
-    "static/css/main.314fdb96.chunk.css.map": "/react-developer-website/static/css/main.314fdb96.chunk.css.map",
+    "static/css/main.36290cb1.chunk.css.map": "/react-developer-website/static/css/main.36290cb1.chunk.css.map",
     "static/js/2.af6348f2.chunk.js.LICENSE.txt": "/react-developer-website/static/js/2.af6348f2.chunk.js.LICENSE.txt",
     "static/media/Logo-Alejandro-Brunella.svg": "/react-developer-website/static/media/Logo-Alejandro-Brunella.9bd23898.svg",
     "static/media/croped-nobg-idea2.png": "/react-developer-website/static/media/croped-nobg-idea2.8a27f3d1.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.ca5a0468.js",
     "static/css/2.eb43dee1.chunk.css",
     "static/js/2.af6348f2.chunk.js",
-    "static/css/main.314fdb96.chunk.css",
-    "static/js/main.933d09c6.chunk.js"
+    "static/css/main.36290cb1.chunk.css",
+    "static/js/main.35531152.chunk.js"
   ]
 }
