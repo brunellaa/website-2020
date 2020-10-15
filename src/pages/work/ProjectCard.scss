@@ -5,7 +5,7 @@
   &__featured {
     display: grid;
     grid-template-areas: ". .";
-    margin: 180px 0;
+    margin: 100px 0;
     border-radius: $standard-border-radius;
     backdrop-filter: blur(5px);
     background-color: #00000000;

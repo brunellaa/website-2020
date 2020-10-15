@@ -1,0 +1,17 @@
+@import "../../sass/variables";
+@import "../../sass/typography";
+
+footer {
+  text-align: center;
+  background-color: $dark-background2;
+  p {
+    margin: 0;
+    padding: 30px;
+    font-size: $normal-text;
+    color: $primary;
+    .name {
+      font-size: $normal-text;
+      color: $lightest;
+    }
+  }
+}

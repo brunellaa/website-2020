@@ -13,8 +13,8 @@ export default function MainPage() {
       <Skills />
       <div className="mobile-hide">
         <Work />
-        <Contact />
       </div>
+      <Contact />
     </main>
   );
 }

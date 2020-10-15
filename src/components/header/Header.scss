@@ -10,13 +10,32 @@ header {
   justify-content: space-between;
   padding: 16px;
   backdrop-filter: blur(10px);
-  background-color: #4e55ffc9;
+  background-color: $primary + c9;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
   .header__nav {
+    &__logo,
+    &__button,
+    &__link {
+      cursor: pointer;
+    }
+    &__logo {
+      padding: 0;
+    }
     &__link {
       color: $lightest;
       padding: $standard-padding;
       font-size: $normal-text;
+      font-weight: bold;
+      transition: all 0.5s;
+      &:hover {
+        color: $secondary;
+        transition: color 0.5s;
+      }
+      &--active {
+        border-bottom: 7px solid $secondary;
+        transition: color 0.5s;
+        color: $secondary;
+      }
     }
     &__button {
       font-size: $normal-text;

@@ -5,7 +5,7 @@ import "./Work.scss";
 
 const Work = () => {
   return (
-    <section className="work">
+    <section id="Work" className="work">
       <div className="max-content">
         <h2 className="work__title">My Work</h2>
         <ProjectCard />

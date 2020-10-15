@@ -5,8 +5,7 @@ import "./About.scss";
 export default function About() {
   return (
     <>
-      <div className="about__top-gradient"></div>
-      <section className="about">
+      <section id="About" className="about">
         <div
           className="max-content"
           data-aos="fade-in"

@@ -6,12 +6,12 @@
 
 /* --------------- Global Layout Styles ---------------- */
 
-html {
-  background-color: black;
+* {
   box-sizing: border-box;
 }
 
 body {
+  background-color: black;
   margin: 0;
 }
 
@@ -34,7 +34,7 @@ a {
   border-radius: $standard-border-radius;
   font-size: $medium-text;
   padding: $button-padding;
-  margin: 10px;
+  // margin: 10px;
   border: 2px solid $lightest;
   background: $primary;
   &__primary {
@@ -49,7 +49,7 @@ a {
 }
 
 ::selection {
-  background-color: $secondary-C;
+  background-color: $secondary;
 }
 
 section {

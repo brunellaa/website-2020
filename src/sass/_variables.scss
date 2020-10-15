@@ -1,12 +1,20 @@
+/*-----------------  PALETTE   -----------------*/
+
+$primary-A: #4e55ff;
+$primary-B: #a02dff;
+$secondary-A: #00ffd0;
+$secondary-B: #ff6433;
+$secondary-C: #00ff92;
+$secondary-D: #ffffff;
+
 /*-----------------  COLOR   -----------------*/
 
 /* Main Color */
-$primary: #4e55ff;
+$primary: $primary-A;
 /* Secondary / Accent Colors */
-$secondary-A: #00ff92;
-$secondary-B: #ff6433;
-$secondary-C: #00ffd0;
-/* General UI Colors */
+$secondary: $secondary-D;
+
+/*-----------------  SPACING   -----------------*/
 $lightest: #ffffff;
 $mid-background: #1c1c1c;
 $dark-background: #111;

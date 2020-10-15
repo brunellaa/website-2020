@@ -23,17 +23,13 @@
       margin: 10px;
     }
   }
-  footer {
-    background-color: $dark-background2;
-    p {
-      margin: 0;
-      padding: 30px;
-      font-size: $normal-text;
-      color: $primary;
-      .name {
-        font-size: $normal-text;
-        color: $lightest;
-      }
+}
+
+@media only screen and (max-width: 760px) {
+  .contact {
+    &__info {
+      padding: 10vh 0;
+      margin: 40px;
     }
   }
 }

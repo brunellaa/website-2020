@@ -8,12 +8,13 @@ import "./Contact.scss";
 
 function Contact() {
   return (
-    <section className="contact">
+    <section id="Contact" className="contact">
       <div className="contact__info max-content">
         <span className="contact__invite">Lets build something together!</span>
-        <h2 className="contact__title">Get in touch</h2>
+        <h2 className="contact__title">Let's talk...</h2>
         <p>
-          Although im currently employed im open to hearing about <br />
+          Although im currently employed im open to hearing about{" "}
+          <br className="mobile-hide" />
           new projects and meeting new people in the tech field.
         </p>
         <button className="button button__primary"> Say HI!</button>
@@ -32,11 +33,6 @@ function Contact() {
           </li>
         </ul>
       </div>
-      <footer>
-        <p>
-          Designed and Built by <span className="name">Alejandro Brunella</span>
-        </p>
-      </footer>
     </section>
   );
 }

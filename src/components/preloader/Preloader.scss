@@ -1,0 +1,19 @@
+@import "../../sass/variables";
+@import "../../sass/animations";
+
+.preloader {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  overflow: hidden;
+  &__logo {
+    width: 120px;
+    height: 120px;
+    animation: appear 2s;
+  }
+}

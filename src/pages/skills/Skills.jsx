@@ -5,7 +5,7 @@ import "./Skills.scss";
 export default function skills() {
   return (
     <section className="skills">
-      <div className="max-content">
+      <div id="Skills" className="max-content">
         <h2 className="skills__title">My Skills</h2>
         <div className="skills__traits">
           <div className="skills__traits__1">

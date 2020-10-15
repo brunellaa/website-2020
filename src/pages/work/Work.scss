@@ -2,12 +2,10 @@
 @import "../../sass/typography";
 
 .work {
-  padding: 25vh 0;
-  // background-color: $dark-background2;
+  padding: 10vh 0;
   &__title {
     display: inline-block;
     margin: 0;
-    // padding: 20px 0;
     border-bottom: 7px solid $primary;
   }
   .small-card-container {

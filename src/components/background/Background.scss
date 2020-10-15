@@ -1,9 +1,5 @@
 @import "../../sass/variables";
 
-:root {
-  --rot: 0deg;
-}
-
 .background-container {
   pointer-events: none;
   background-color: $dark-background2;
@@ -21,8 +17,8 @@
     position: absolute;
     height: 85vw;
     width: 85vw;
-    border: 3px solid #4e54ff8f;
-    transform: translate(-50%, -50%) rotate(var(--rot)) scale(0.97);
+    border: 3px solid $primary + 8f;
+    transform: translate(-50%, -50%) rotate(var(--rot)) scale(0.94);
   }
 }
 
