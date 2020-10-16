@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da1f10e6c142bf7ad1c69836c2287743",
+    "revision": "b5d83923a49ab9dc197d41fdd9453d8c",
     "url": "/react-developer-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-developer-website/static/css/2.eb43dee1.chunk.css"
   },
   {
-    "revision": "a854a4089167800314a3",
-    "url": "/react-developer-website/static/css/main.36290cb1.chunk.css"
+    "revision": "27d538de967fd7f545c2",
+    "url": "/react-developer-website/static/css/main.4d2b8750.chunk.css"
   },
   {
     "revision": "9857fbd46c9d524a1d2c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-developer-website/static/js/2.af6348f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a854a4089167800314a3",
-    "url": "/react-developer-website/static/js/main.35531152.chunk.js"
+    "revision": "27d538de967fd7f545c2",
+    "url": "/react-developer-website/static/js/main.89c9972b.chunk.js"
   },
   {
     "revision": "41b189359604a004789d",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9bd23898bfad44420e1c5710d5339d2e",
     "url": "/react-developer-website/static/media/Logo-Alejandro-Brunella.9bd23898.svg"
+  },
+  {
+    "revision": "7c370ed568f54bfd408deca88144c8eb",
+    "url": "/react-developer-website/static/media/Picture.7c370ed5.png"
   },
   {
     "revision": "8a27f3d1eda00c25d6b6bb1955190391",
