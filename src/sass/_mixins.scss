@@ -1,0 +1,13 @@
+@import "variables";
+
+@mixin card-primary {
+  padding: $standard-padding;
+  border-radius: $standard-border-radius;
+  border: 2px solid $primary;
+}
+
+@mixin card-optional {
+  padding: $standard-padding;
+  border-radius: $standard-border-radius;
+  border: 1px solid $dark-background;
+}

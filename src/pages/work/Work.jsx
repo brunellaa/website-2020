@@ -6,12 +6,20 @@ import "./Work.scss";
 const Work = () => {
   return (
     <section id="Work" className="work">
-      <div className="max-content">
-        <h2 className="work__title">My Work</h2>
+      <div
+        className="max-content"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-offset="400"
+      >
+        <h2 className="work__title">Featured Work</h2>
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
+        <h3 className="work__subtitle">Other Projects</h3>
         <div className="small-card-container">
+          <SmallCard />
+          <SmallCard />
           <SmallCard />
           <SmallCard />
           <SmallCard />

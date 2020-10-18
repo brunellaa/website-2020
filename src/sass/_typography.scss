@@ -43,9 +43,6 @@ h3 {
 h4 {
   font-size: $heading-4;
 }
-span {
-  font-size: $medium-text;
-}
 p {
   font-size: $medium-text;
 }
@@ -54,6 +51,12 @@ a {
 }
 .large-text {
   font-size: $large-text;
+}
+.primary-color {
+  color: $primary;
+}
+.secondary-color {
+  color: $secondary;
 }
 
 @media only screen and (max-width: 760px) {

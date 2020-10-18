@@ -1,10 +1,11 @@
 @import "../../sass/variables";
 @import "../../sass/animations";
 @import "../../sass/typography";
+@import "../../sass/mixins";
 
 .skills {
   background: $dark-background2;
-  padding: 20vh 0;
+  padding: 1px 0 40vh 0;
   text-align: left;
   &__title {
     display: inline-block;
@@ -14,91 +15,64 @@
   &__traits {
     display: grid;
     text-align: center;
+    grid-template-areas:
+      ". . . skills__traits__main-skills"
+      ". . . skills__traits__main-skills"
+      ". . . skills__traits__main-skills";
     padding: 20px 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: $standard-grid-gap;
-    grid-template-areas:
-      "skills__traits__1 skills__traits__2 skills__traits__3 skills__traits__main-skills"
-      " skills__traits__4  skills__traits__5  skills__traits__6 skills__traits__main-skills";
+    h4 {
+      margin: 20px 0;
+      color: $secondary;
+    }
     p {
+      margin: 0;
       font-size: $normal-text;
+    }
+    &__list {
+      font-size: $small-text;
+      border-top: $standard-border;
+      padding: 25px 0 0 0;
+      margin: 20px;
+      text-align: left;
+      list-style: none;
+      li {
+        margin: 8px 0;
+        &:before {
+          content: " ■ ";
+          color: $secondary;
+          margin-left: -14px;
+        }
+      }
     }
     &__icon {
       fill: $primary;
       width: 100%;
-      max-width: 140px;
-    }
-    &__1 {
-      grid-area: skills__traits__1;
-    }
-    &__2 {
-      grid-area: skills__traits__2;
-    }
-    &__3 {
-      grid-area: skills__traits__3;
-    }
-    &__4 {
-      grid-area: skills__traits__4;
-    }
-    &__5 {
-      grid-area: skills__traits__5;
-    }
-    &__6 {
-      grid-area: skills__traits__6;
+      max-height: 140px;
+      padding: 10px;
+      box-sizing: border-box;
     }
     &__main-skills {
       grid-area: skills__traits__main-skills;
       border-left: 1px solid $primary;
       ul {
         padding: 0;
-        margin-left: 40px;
+        margin: 0 0 0 40px;
         text-align: left;
         li {
-          margin: 20px;
-          font-size: $medium-text;
+          margin: 25px 20px;
+          display: flex;
+          font-size: $normal-text;
           list-style-type: none;
-          padding-left: 40px;
           background-repeat: no-repeat;
+          fill: $primary;
           line-height: 30px;
+          svg {
+            margin-right: 10px;
+          }
         }
-        .html {
-          background-image: url("../../assets/icons/icon-html.svg");
-        }
-        .css {
-          background-image: url("../../assets/icons/icon-css.svg");
-        }
-        .js {
-          background-image: url("../../assets/icons/icon-javascript.svg");
-        }
-        .ts {
-          background-image: url("../../assets/icons/icon-typescript.svg");
-        }
-        .react {
-          background-image: url("../../assets/icons/icon-react.svg");
-        }
-        .node {
-          background-image: url("../../assets/icons/icon-node.svg");
-        }
-        .vscode {
-          background-image: url("../../assets/icons/icon-vscode.svg");
-        }
-        .xd {
-          background-image: url("../../assets/icons/icon-xd.svg");
-        }
-        .psd {
-          background-image: url("../../assets/icons/icon-psd.svg");
-        }
-        .ai {
-          background-image: url("../../assets/icons/icon-ai.svg");
-        }
-        .figma {
-          background-image: url("../../assets/icons/icon-figma.svg");
-        }
-      }
-      hr {
-        border-color: $lightest;
-        opacity: 0.1;
       }
     }
   }

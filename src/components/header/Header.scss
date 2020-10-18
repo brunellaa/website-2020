@@ -32,7 +32,6 @@ header {
         transition: color 0.5s;
       }
       &--active {
-        border-bottom: 7px solid $secondary;
         transition: color 0.5s;
         color: $secondary;
       }
@@ -46,6 +45,7 @@ header {
       border-radius: $standard-border-radius;
     }
     &__button:hover {
+      transition: all 0.5s;
       color: $primary;
       background-color: $lightest;
     }

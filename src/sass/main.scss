@@ -3,15 +3,12 @@
 @import "variables";
 @import "typography";
 @import "animations";
+@import "mixins";
 
 /* --------------- Global Layout Styles ---------------- */
 
-* {
-  box-sizing: border-box;
-}
-
 body {
-  background-color: black;
+  background-color: $dark-background2;
   margin: 0;
 }
 
@@ -20,11 +17,12 @@ body {
   margin: auto;
 }
 
-/* --------------- Global UI Styles ---------------- */
-
 a {
   text-decoration: none;
+  box-sizing: border-box;
 }
+
+/* --------------- UI Styles ---------------- */
 
 .button {
   &__big {
@@ -34,22 +32,52 @@ a {
   border-radius: $standard-border-radius;
   font-size: $medium-text;
   padding: $button-padding;
-  // margin: 10px;
   border: 2px solid $lightest;
   background: $primary;
   &__primary {
     border-color: $primary;
     color: $lightest;
+    &:hover {
+      color: $primary;
+      background-color: $lightest;
+      border: 2px solid $lightest;
+      transition: all 0.5s;
+    }
     &__void {
       border-color: $primary;
       background: transparent;
       color: $primary;
+      &:hover {
+        color: $lightest;
+        border: 2px solid $lightest;
+        transition: all 0.5s;
+      }
+    }
+  }
+  &__secondary {
+    border-color: $secondary;
+    color: $lightest;
+    &:hover {
+      color: $secondary;
+      background-color: $lightest;
+      border: 2px solid $lightest;
+      transition: all 0.5s;
+    }
+    &__void {
+      border-color: $secondary;
+      background: transparent;
+      color: $secondary;
+      &:hover {
+        color: $lightest;
+        border: 2px solid $lightest;
+        transition: all 0.5s;
+      }
     }
   }
 }
 
 ::selection {
-  background-color: $secondary;
+  background-color: $support-D;
 }
 
 section {
@@ -58,6 +86,13 @@ section {
 
 .desktop-hide {
   display: none;
+}
+/* --------------- icon color ---------------- */
+.icon-secondary-color {
+  fill: $secondary;
+}
+.icon-primary-color {
+  fill: $primary;
 }
 
 @media only screen and (max-width: 760px) {

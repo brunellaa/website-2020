@@ -2,8 +2,8 @@
 @import "../../sass/typography";
 
 .hero {
-  padding-top: 35vh;
-  height: calc(100vh - 77px);
+  padding-top: 30vh;
+  height: calc(70vh - 77px);
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 1) 0%,
@@ -13,19 +13,16 @@
   &__role {
     color: $primary;
   }
-  &__name,
   &__role,
   &__intro {
     margin: 0;
   }
+  &__name {
+    margin: 8px 0;
+  }
   &__intro {
     margin-top: 20px;
     margin-bottom: 40px;
-  }
-  &__contact-me:hover {
-    transition: color 0.5s;
-    color: black;
-    background-color: $primary;
   }
 }
 

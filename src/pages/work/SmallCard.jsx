@@ -7,7 +7,7 @@ function SmallCard() {
   return (
     <div className="small__card">
       <div className="small__card__header">
-        <h3 className="small__card__name">Project Name</h3>
+        <h4 className="small__card__name">Project Name</h4>
         <div className="header-links">
           <GithubIcon />
           <LinkIcon />

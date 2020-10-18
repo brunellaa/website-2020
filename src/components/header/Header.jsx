@@ -30,6 +30,7 @@ const Header = () => {
           spy={true}
           smooth={true}
           duration={duration}
+          data-aos-once="true"
         >
           About
         </Link>
@@ -37,7 +38,7 @@ const Header = () => {
           to="Skills"
           className="header__nav__link"
           activeClass="header__nav__link--active"
-          offset={-1}
+          offset={-80}
           spy={true}
           smooth={true}
           duration={duration}
@@ -48,7 +49,6 @@ const Header = () => {
           to="Work"
           className="header__nav__link"
           activeClass="header__nav__link--active"
-          offset={-1}
           spy={true}
           smooth={true}
           duration={duration}

@@ -5,8 +5,7 @@
 .small__card {
   border: 1px solid $primary;
   border-radius: $standard-border-radius;
-  backdrop-filter: blur(10px);
-  background-color: #00000000;
+  background-color: $dark-background2;
   padding: 0;
   &__header {
     justify-content: space-between;
