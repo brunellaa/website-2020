@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c5add1f01a8e0995b3c03b6917f4055",
+    "revision": "145c9e765c6b48111a214eb202247a1d",
     "url": "/react-developer-website/index.html"
   },
   {
-    "revision": "ee731af0f2224065a3d8",
+    "revision": "9857fbd46c9d524a1d2c",
     "url": "/react-developer-website/static/css/2.eb43dee1.chunk.css"
   },
   {
-    "revision": "24244cb7826a64f0b135",
-    "url": "/react-developer-website/static/css/main.9bad383b.chunk.css"
+    "revision": "48859c98616750855be2",
+    "url": "/react-developer-website/static/css/main.cc7b9bf6.chunk.css"
   },
   {
-    "revision": "ee731af0f2224065a3d8",
-    "url": "/react-developer-website/static/js/2.70c917bf.chunk.js"
+    "revision": "9857fbd46c9d524a1d2c",
+    "url": "/react-developer-website/static/js/2.af6348f2.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-developer-website/static/js/2.70c917bf.chunk.js.LICENSE.txt"
+    "url": "/react-developer-website/static/js/2.af6348f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24244cb7826a64f0b135",
-    "url": "/react-developer-website/static/js/main.170bfaa2.chunk.js"
+    "revision": "48859c98616750855be2",
+    "url": "/react-developer-website/static/js/main.2e0ff3bd.chunk.js"
   },
   {
     "revision": "41b189359604a004789d",
@@ -52,20 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-developer-website/static/media/icon-figma.4fac9180.svg"
   },
   {
-    "revision": "1d54bca5d027686c8b5b6efdd4d141d5",
-    "url": "/react-developer-website/static/media/icon-ft-codepen.1d54bca5.svg"
+    "revision": "aa16a01bd49cbd7ef6fbb15cfc4fe7ee",
+    "url": "/react-developer-website/static/media/icon-ft-codepen.aa16a01b.svg"
   },
   {
-    "revision": "ef00db9bf02bc20776c177c863c19b70",
-    "url": "/react-developer-website/static/media/icon-ft-gh.ef00db9b.svg"
+    "revision": "bc18e394874ae4631dd1ca7456df5ae9",
+    "url": "/react-developer-website/static/media/icon-ft-gh.bc18e394.svg"
   },
   {
-    "revision": "4bf798a591eda6ab049fe4e4992fbb4f",
-    "url": "/react-developer-website/static/media/icon-ft-li.4bf798a5.svg"
+    "revision": "c634da1d7ccbb337f67e717db0342b7a",
+    "url": "/react-developer-website/static/media/icon-ft-li.c634da1d.svg"
   },
   {
-    "revision": "9a4008ecdc56a9f1950971610066dad0",
-    "url": "/react-developer-website/static/media/icon-ft-tw.9a4008ec.svg"
+    "revision": "fc01fadb15856483aea599a4a5557ceb",
+    "url": "/react-developer-website/static/media/icon-ft-tw.fc01fadb.svg"
   },
   {
     "revision": "64cf4c050495a5e6dfbf6d714f47820e",
@@ -94,10 +94,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "131e86ed744ac5511512b6c9fbf4da61",
     "url": "/react-developer-website/static/media/icon-react.131e86ed.svg"
-  },
-  {
-    "revision": "1c7dd18d65f4c39733809e87d1d02ae0",
-    "url": "/react-developer-website/static/media/icon-typescript.1c7dd18d.svg"
   },
   {
     "revision": "a0e9f4e8aa3ec6d90b02d5035a66e6ce",
