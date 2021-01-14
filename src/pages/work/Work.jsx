@@ -14,8 +14,8 @@ export class Work extends Component {
 
   componentDidMount() {
     fetch("https://api.github.com/users/brunellaa/repos")
-      .then((response) => response.json())
-      .then((data) => this.setState({ projects: data }));
+      .then(response => response.json())
+      .then(data => this.setState({ projects: data }));
   }
 
   render() {
@@ -28,7 +28,7 @@ export class Work extends Component {
           data-aos-duration="800"
           data-aos-offset="400"
         >
-          <h2 className="work__title">Featured Work</h2>
+          <h2 className="work__title">Featured Projects</h2>
           <ProjectCard />
           <h3 className="work__subtitle">Other Projects</h3>
           <div className="small-card-container">
