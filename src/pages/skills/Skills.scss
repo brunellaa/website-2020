@@ -5,7 +5,8 @@
 
 .skills {
   background: $dark-background2;
-  padding: 1px 0 40vh 0;
+  padding: 1px 0 100px 0;
+  min-height: 100vh;
   text-align: left;
   &__title {
     display: inline-block;
@@ -24,18 +25,20 @@
     grid-template-rows: 1fr;
     gap: $standard-grid-gap;
     h4 {
-      margin: 20px 0;
-      color: $secondary;
+      margin: 20px 0 0 0;
+      color: $lightest;
     }
     p {
       margin: 0;
       font-size: $normal-text;
+      line-height: 25px;
     }
     &__list {
       font-size: $small-text;
       border-top: $standard-border;
       padding: 25px 0 0 0;
       margin: 20px;
+      margin-top: 0;
       text-align: left;
       list-style: none;
       li {
@@ -50,7 +53,7 @@
     &__icon {
       fill: $primary;
       width: 100%;
-      max-height: 140px;
+      max-height: 160px;
       padding: 10px;
       box-sizing: border-box;
     }
@@ -96,12 +99,15 @@
       grid-auto-rows: auto;
       gap: $standard-grid-gap;
       grid-template-areas:
-        "skills__traits__1"
-        "skills__traits__2"
-        "skills__traits__3"
-        "skills__traits__4"
-        "skills__traits__5"
-        "skills__traits__6"
+        "skills__traits__item-1"
+        "skills__traits__item-2"
+        "skills__traits__item-3"
+        "skills__traits__item-4"
+        "skills__traits__item-5"
+        "skills__traits__item-6"
+        "skills__traits__item-7"
+        "skills__traits__item-8"
+        "skills__traits__item-9"
         "skills__traits__main-skills";
 
       &__main-skills {
@@ -122,5 +128,32 @@
     p {
       margin-bottom: 20px;
     }
+  }
+  .skills__traits__item-1 {
+    grid-area: skills__traits__item-1;
+  }
+  .skills__traits__item-2 {
+    grid-area: skills__traits__item-2;
+  }
+  .skills__traits__item-3 {
+    grid-area: skills__traits__item-3;
+  }
+  .skills__traits__item-4 {
+    grid-area: skills__traits__item-4;
+  }
+  .skills__traits__item-5 {
+    grid-area: skills__traits__item-5;
+  }
+  .skills__traits__item-6 {
+    grid-area: skills__traits__item-6;
+  }
+  .skills__traits__item-7 {
+    grid-area: skills__traits__item-7;
+  }
+  .skills__traits__item-8 {
+    grid-area: skills__traits__item-8;
+  }
+  .skills__traits__item-9 {
+    grid-area: skills__traits__item-9;
   }
 }

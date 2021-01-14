@@ -16,7 +16,7 @@ $secondary-D: #ffffff;
 $primary: $primary-A;
 
 /* Secondary / Accent Colors */
-$secondary: $secondary-A;
+$secondary: $secondary-D;
 
 /*-----------------  SPACING   -----------------*/
 $lightest: #ffffff;
@@ -42,3 +42,8 @@ $max-site-width: 1140px;
 
 $standard-border-radius: 20px;
 $standard-border: 1px solid $primary;
+
+/*-----------------  VARIANTS   -----------------*/
+// $primary: black;
+// $dark-background2: $primary-A;
+// $dark-background0: white;

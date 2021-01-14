@@ -7,7 +7,7 @@ import { ReactComponent as IconAI } from "../../assets/icons/icon-ai.svg";
 import { ReactComponent as IconCSS } from "../../assets/icons/icon-css.svg";
 import { ReactComponent as IconFIGMA } from "../../assets/icons/icon-figma.svg";
 import { ReactComponent as IconJS } from "../../assets/icons/icon-javascript.svg";
-import { ReactComponent as IconTS } from "../../assets/icons/icon-typescript.svg";
+// import { ReactComponent as IconTS } from "../../assets/icons/icon-typescript.svg";
 import { ReactComponent as IconREACT } from "../../assets/icons/icon-react.svg";
 import { ReactComponent as IconNODE } from "../../assets/icons/icon-node.svg";
 import { ReactComponent as IconPSD } from "../../assets/icons/icon-psd.svg";
@@ -26,38 +26,37 @@ export default function skills() {
       >
         <h2 className="skills__title">My Skills</h2>
         <div className="skills__traits">
-          <div className="skills__traits__item">
+          <div className="skills__traits__item-1">
             <Skill1 className="skills__traits__icon" />
-            <h4>Design & Ideation</h4>
+            <h4>Design</h4>
           </div>
-          <div className="skills__traits__item">
+          <div className="skills__traits__item-4">
             <Skill2 className="skills__traits__icon" />
             <h4>Development</h4>
           </div>
-          <div className="skills__traits__item">
+          <div className="skills__traits__item-7">
             <Skill3 className="skills__traits__icon" />
-            <h4>Soft Skills</h4>
+            <h4>Soft </h4>
           </div>
-          <div className="skills__traits__item">
+          <div className="skills__traits__item-2">
             <p>
-              Overall Design knowledge for all the stages of a project, from
-              early stages of creation of ideas, defining elements, interactions
-              and structure.
+              Strong design foundations applied to elements and interactions in
+              a smart and aesthetic way
             </p>
           </div>
-          <div className="skills__traits__item">
+          <div className="skills__traits__item-5">
             <p>
-              I focus on creating great responsive interfaces that perform well
+              Focus on performance, responsive, intuitive and dynamic interfaces
+              while applying best practices
             </p>
           </div>
-          <div className="skills__traits__item">
+          <div className="skills__traits__item-8">
             <p>
-              Overall design knowledge across all the stages of a project, i can
-              help in the early stages of creation of ideas, defining elements
-              and appliying good practices.
+              Multi-disciplinary, innovaticve, creative and analitical, Self
+              learner, curious and friendly
             </p>
           </div>
-          <div className="skills__traits__item">
+          <div className="skills__traits__item-3">
             <ul className="skills__traits__list">
               <li>Wireframing knowledge</li>
               <li>Strong Typography fundations</li>
@@ -67,24 +66,20 @@ export default function skills() {
               </li>
             </ul>
           </div>
-          <div className="skills__traits__item">
+          <div className="skills__traits__item-6">
             <ul className="skills__traits__list">
-              <li>Wireframing knowledge</li>
-              <li>Strong Typography fundations</li>
-              <li>Deep understanding of color use</li>
-              <li>
-                Diverse technical knowledge about images colors and formats
-              </li>
+              <li>App / Web development</li>
+              <li>Best practices / Methodologies</li>
+              <li>Semantic Code</li>
+              <li>CLI / GIT / CVS</li>
             </ul>
           </div>
-          <div className="skills__traits__item">
+          <div className="skills__traits__item-9">
             <ul className="skills__traits__list">
-              <li>Wireframing knowledge</li>
-              <li>Strong Typography fundations</li>
-              <li>Deep understanding of color use</li>
-              <li>
-                Diverse technical knowledge about images colors and formats
-              </li>
+              <li>Good Communication skills</li>
+              <li>I welcome challenge</li>
+              <li>Good stress management</li>
+              <li>Empathic and a team player</li>
             </ul>
           </div>
           <div className="skills__traits__main-skills">
@@ -100,10 +95,10 @@ export default function skills() {
                 <IconJS />
                 Javascript
               </li>
-              <li>
+              {/* <li>
                 <IconTS />
                 Typescript
-              </li>
+              </li> */}
               <li>
                 <IconREACT />
                 React

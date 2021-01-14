@@ -7,6 +7,9 @@
 
 /* --------------- Global Layout Styles ---------------- */
 
+*:focus {
+  outline: none;
+}
 body {
   background-color: $dark-background2;
   margin: 0;

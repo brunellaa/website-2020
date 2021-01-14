@@ -6,6 +6,9 @@
   text-align: center;
   &__info {
     padding: 25vh 0;
+    p {
+      margin-bottom: 40px;
+    }
   }
   &__invite {
     color: $primary;
@@ -13,6 +16,7 @@
   }
   &__title {
     padding: 0;
+    margin: 20px 0;
   }
   &__icons-list {
     padding: 0;
@@ -21,6 +25,12 @@
     li {
       display: inline-block;
       margin: 10px;
+      &:hover {
+        .icon-primary-color {
+          fill: $lightest;
+          transition: all 0.5s;
+        }
+      }
     }
   }
 }

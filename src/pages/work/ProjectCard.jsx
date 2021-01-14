@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
     <div className="work__card__featured">
       <div className="work__card__featured__info">
         <span className="work__card__featured__type">Featured project</span>
-        <h3 className="work__card__featured__name">Project Name</h3>
+        <h3 className="work__card__featured__name">Coming Soon...</h3>
         <p className="work__card__featured__description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
           purus volutpat mollis euismod odio elementum.Lorem ipsum dolor sit
