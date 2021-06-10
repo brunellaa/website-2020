@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab0aa2b018b365a66b610cfcbe80f5b2",
+    "revision": "43f60ade1c7d9b0260f54ffcfdb206e7",
     "url": "/react-developer-website/index.html"
   },
   {
-    "revision": "9857fbd46c9d524a1d2c",
+    "revision": "38694679dc5387c793e9",
     "url": "/react-developer-website/static/css/2.eb43dee1.chunk.css"
   },
   {
-    "revision": "ca9804c6e7c0263aedf7",
-    "url": "/react-developer-website/static/css/main.cc7b9bf6.chunk.css"
+    "revision": "3f77ee38e3eed9382469",
+    "url": "/react-developer-website/static/css/main.2fe82166.chunk.css"
   },
   {
-    "revision": "9857fbd46c9d524a1d2c",
-    "url": "/react-developer-website/static/js/2.af6348f2.chunk.js"
+    "revision": "38694679dc5387c793e9",
+    "url": "/react-developer-website/static/js/2.71c67a90.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-developer-website/static/js/2.af6348f2.chunk.js.LICENSE.txt"
+    "url": "/react-developer-website/static/js/2.71c67a90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca9804c6e7c0263aedf7",
-    "url": "/react-developer-website/static/js/main.69b7296a.chunk.js"
+    "revision": "3f77ee38e3eed9382469",
+    "url": "/react-developer-website/static/js/main.cf244a79.chunk.js"
   },
   {
     "revision": "41b189359604a004789d",
@@ -52,20 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-developer-website/static/media/icon-figma.4fac9180.svg"
   },
   {
-    "revision": "aa16a01bd49cbd7ef6fbb15cfc4fe7ee",
-    "url": "/react-developer-website/static/media/icon-ft-codepen.aa16a01b.svg"
+    "revision": "fc58ac60d9266b72702787987c602ccd",
+    "url": "/react-developer-website/static/media/icon-ft-codepen.fc58ac60.svg"
   },
   {
-    "revision": "bc18e394874ae4631dd1ca7456df5ae9",
-    "url": "/react-developer-website/static/media/icon-ft-gh.bc18e394.svg"
+    "revision": "eedd65c7f10a6f42de5be607479db895",
+    "url": "/react-developer-website/static/media/icon-ft-gh.eedd65c7.svg"
   },
   {
-    "revision": "c634da1d7ccbb337f67e717db0342b7a",
-    "url": "/react-developer-website/static/media/icon-ft-li.c634da1d.svg"
+    "revision": "d9a81e9e858088e312aeb43d01291ac3",
+    "url": "/react-developer-website/static/media/icon-ft-li.d9a81e9e.svg"
   },
   {
-    "revision": "fc01fadb15856483aea599a4a5557ceb",
-    "url": "/react-developer-website/static/media/icon-ft-tw.fc01fadb.svg"
+    "revision": "a0455d8b1c0a6d9f5fca9108caebdfbc",
+    "url": "/react-developer-website/static/media/icon-ft-tw.a0455d8b.svg"
   },
   {
     "revision": "64cf4c050495a5e6dfbf6d714f47820e",
