@@ -4,9 +4,7 @@ import "./Footer.scss";
 function Footer() {
   return (
     <footer>
-      <p>
-        Designed and Built by <span className="name">Alejandro Brunella</span>
-      </p>
+      <p>Designed and Built by Alejandro Brunella 2020</p>
     </footer>
   );
 }

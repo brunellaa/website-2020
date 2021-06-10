@@ -6,7 +6,7 @@
   height: calc(70vh - 77px);
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 1) 0%,
+    $dark-background2 0%,
     rgba(0, 0, 0, 0) 100%
   );
   &__greetings,
