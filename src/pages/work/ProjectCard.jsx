@@ -1,38 +1,60 @@
 import React from "react";
-import picture from "../../assets/images/featured_1/Picture.png";
 import "./ProjectCard.scss";
 
-const ProjectCard = (props) => {
+const ProjectCard = ({
+  id,
+  title,
+  type,
+  url,
+  repo,
+  description,
+  stack,
+  picture,
+  accent,
+}) => {
   return (
-    <div className="work__card__featured">
+    <div className={`work__card__featured work__card__featured__${accent}`}>
       <div className="work__card__featured__info">
-        <span className="work__card__featured__type">Featured project</span>
-        <h3 className="work__card__featured__name">Coming Soon...</h3>
-        <p className="work__card__featured__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
-          purus volutpat mollis euismod odio elementum.Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Imperdiet purus volutpat mollis
-          euismod odio elementum. <br /> <br /> Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Imperdiet purus volutpat mollis euismod
-          odio elementum.
-        </p>
+        <span className="work__card__featured__type">{type}</span>
+        <h3 className="work__card__featured__name">{title}</h3>
+        {description.map((item, i) => {
+          return (
+            <p className="work__card__featured__description" key={i}>
+              {item}
+            </p>
+          );
+        })}
         <div className="work__card__resources">
           <div className="links">
-            <button className="button button__primary">Github</button>
-            <button className="button button__primary__void">Link</button>
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button button__primary"
+            >
+              Live Website
+            </a>
+            <a
+              href={repo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button button__primary__void"
+            >
+              Repository
+            </a>
           </div>
           <div className="stack">
             <p className="stack__title">STACK AND TOOLS</p>
             <ul className="stack__list">
-              <li>React</li>
-              <li>Redux</li>
-              <li>Styled Components</li>
+              {stack.map((name, i) => (
+                <li key={i}>{name}</li>
+              ))}
             </ul>
           </div>
         </div>
       </div>
       <div className="work__card__featured__image">
-        <img src={picture} alt="" />
+        <img src={picture} alt={title} />
       </div>
     </div>
   );

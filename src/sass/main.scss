@@ -80,7 +80,8 @@ a {
 }
 
 ::selection {
-  background-color: $support-D;
+  background-color: $secondary;
+  color: $primary;
 }
 
 section {

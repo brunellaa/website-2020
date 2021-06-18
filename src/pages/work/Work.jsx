@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
 import SmallCard from "./SmallCard";
+import featuredProjects from "../../data/projectData";
 import "./Work.scss";
 
 export class Work extends Component {
@@ -29,7 +30,9 @@ export class Work extends Component {
           data-aos-offset="400"
         >
           <h2 className="work__title">Featured Projects</h2>
-          <ProjectCard />
+          {featuredProjects.map(({ id, ...allProps }) => {
+            return <ProjectCard key={id} {...allProps} />;
+          })}
           <h3 className="work__subtitle">Other Projects</h3>
           <div className="small-card-container">
             {projects.map(({ id, ...otherInfo }) => {

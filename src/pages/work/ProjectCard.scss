@@ -20,7 +20,7 @@
       margin: 0;
       filter: grayscale(1);
       border-radius: $standard-border-radius;
-      transform: translate(40px);
+      transform: translate(30px);
       transition: all ease-in-out 0.4s;
       height: 100%;
       img {
@@ -58,6 +58,7 @@
         margin-top: 15px;
         display: block;
         width: 180px;
+        text-align: center;
       }
     }
     .stack {
@@ -69,7 +70,6 @@
         font-size: $small-text;
       }
       &__list {
-        text-transform: uppercase;
         list-style-type: none;
         padding: 0;
         li:before {

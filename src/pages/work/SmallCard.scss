@@ -7,6 +7,9 @@
   border-radius: $standard-border-radius;
   background-color: $dark-background2;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   &__header {
     justify-content: space-between;
     display: flex;
