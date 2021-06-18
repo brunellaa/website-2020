@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43f60ade1c7d9b0260f54ffcfdb206e7",
+    "revision": "81f64277998c92b2549de4384a396082",
     "url": "/react-developer-website/index.html"
   },
   {
-    "revision": "38694679dc5387c793e9",
+    "revision": "15202d2f9d29e5682b10",
     "url": "/react-developer-website/static/css/2.eb43dee1.chunk.css"
   },
   {
-    "revision": "3f77ee38e3eed9382469",
-    "url": "/react-developer-website/static/css/main.2fe82166.chunk.css"
+    "revision": "4f4f54ebc5d2d5941e1f",
+    "url": "/react-developer-website/static/css/main.3bffea28.chunk.css"
   },
   {
-    "revision": "38694679dc5387c793e9",
-    "url": "/react-developer-website/static/js/2.71c67a90.chunk.js"
+    "revision": "15202d2f9d29e5682b10",
+    "url": "/react-developer-website/static/js/2.4a296ed6.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-developer-website/static/js/2.71c67a90.chunk.js.LICENSE.txt"
+    "url": "/react-developer-website/static/js/2.4a296ed6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f77ee38e3eed9382469",
-    "url": "/react-developer-website/static/js/main.cf244a79.chunk.js"
+    "revision": "4f4f54ebc5d2d5941e1f",
+    "url": "/react-developer-website/static/js/main.e0950f7a.chunk.js"
   },
   {
     "revision": "41b189359604a004789d",
     "url": "/react-developer-website/static/js/runtime-main.ca5a0468.js"
   },
   {
-    "revision": "9bd23898bfad44420e1c5710d5339d2e",
-    "url": "/react-developer-website/static/media/Logo-Alejandro-Brunella.9bd23898.svg"
+    "revision": "95b59d532ad04380433603be19b43719",
+    "url": "/react-developer-website/static/media/001.95b59d53.png"
   },
   {
-    "revision": "7c370ed568f54bfd408deca88144c8eb",
-    "url": "/react-developer-website/static/media/Picture.7c370ed5.png"
+    "revision": "9bd23898bfad44420e1c5710d5339d2e",
+    "url": "/react-developer-website/static/media/Logo-Alejandro-Brunella.9bd23898.svg"
   },
   {
     "revision": "8a27f3d1eda00c25d6b6bb1955190391",
