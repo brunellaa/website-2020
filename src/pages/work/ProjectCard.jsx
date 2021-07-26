@@ -2,7 +2,6 @@ import React from "react";
 import "./ProjectCard.scss";
 
 const ProjectCard = ({
-  id,
   title,
   type,
   url,
@@ -10,10 +9,9 @@ const ProjectCard = ({
   description,
   stack,
   picture,
-  accent,
 }) => {
   return (
-    <div className={`work__card__featured work__card__featured__${accent}`}>
+    <div className="work__card__featured">
       <div className="work__card__featured__info">
         <span className="work__card__featured__type">{type}</span>
         <h3 className="work__card__featured__name">{title}</h3>
@@ -32,7 +30,7 @@ const ProjectCard = ({
               rel="noopener noreferrer"
               className="button button__primary"
             >
-              Live Website
+              Website
             </a>
             <a
               href={repo}
@@ -40,7 +38,7 @@ const ProjectCard = ({
               rel="noopener noreferrer"
               className="button button__primary__void"
             >
-              Repository
+              GitHub
             </a>
           </div>
           <div className="stack">
@@ -54,7 +52,9 @@ const ProjectCard = ({
         </div>
       </div>
       <div className="work__card__featured__image">
-        <img src={picture} alt={title} />
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          <img src={picture} alt={title} />
+        </a>
       </div>
     </div>
   );

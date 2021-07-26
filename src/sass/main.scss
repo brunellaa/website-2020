@@ -17,6 +17,7 @@ body {
 
 .max-content {
   max-width: $max-site-width;
+  width: 80%;
   margin: auto;
 }
 
@@ -38,6 +39,9 @@ a {
   border: 2px solid $lightest;
   background: $primary;
   &__primary {
+    svg {
+      margin-right: 10px;
+    }
     border-color: $primary;
     color: $lightest;
     &:hover {
