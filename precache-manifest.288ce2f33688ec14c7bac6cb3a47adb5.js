@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81f64277998c92b2549de4384a396082",
+    "revision": "76042d5fc13c763a48b77a1ce45c302c",
     "url": "/react-developer-website/index.html"
   },
   {
-    "revision": "15202d2f9d29e5682b10",
-    "url": "/react-developer-website/static/css/2.eb43dee1.chunk.css"
+    "revision": "7c41ee3d95d06baac4a8",
+    "url": "/react-developer-website/static/css/2.3ab4c7df.chunk.css"
   },
   {
-    "revision": "4f4f54ebc5d2d5941e1f",
-    "url": "/react-developer-website/static/css/main.3bffea28.chunk.css"
+    "revision": "7011bdd281a09ae8baaf",
+    "url": "/react-developer-website/static/css/main.cf6c30df.chunk.css"
   },
   {
-    "revision": "15202d2f9d29e5682b10",
-    "url": "/react-developer-website/static/js/2.4a296ed6.chunk.js"
+    "revision": "7c41ee3d95d06baac4a8",
+    "url": "/react-developer-website/static/js/2.b0dcfd02.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-developer-website/static/js/2.4a296ed6.chunk.js.LICENSE.txt"
+    "url": "/react-developer-website/static/js/2.b0dcfd02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f4f54ebc5d2d5941e1f",
-    "url": "/react-developer-website/static/js/main.e0950f7a.chunk.js"
+    "revision": "7011bdd281a09ae8baaf",
+    "url": "/react-developer-website/static/js/main.3bc414b6.chunk.js"
   },
   {
     "revision": "41b189359604a004789d",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "95b59d532ad04380433603be19b43719",
     "url": "/react-developer-website/static/media/001.95b59d53.png"
+  },
+  {
+    "revision": "4d9c4efb772da08553d269585158108d",
+    "url": "/react-developer-website/static/media/002.4d9c4efb.png"
   },
   {
     "revision": "9bd23898bfad44420e1c5710d5339d2e",
@@ -68,20 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-developer-website/static/media/icon-ft-tw.a0455d8b.svg"
   },
   {
-    "revision": "64cf4c050495a5e6dfbf6d714f47820e",
-    "url": "/react-developer-website/static/media/icon-github.64cf4c05.svg"
-  },
-  {
     "revision": "79386a098849e35178a02305dfbf2e49",
     "url": "/react-developer-website/static/media/icon-html.79386a09.svg"
   },
   {
     "revision": "38f85a9f66441f3152c664c4c810f2a5",
     "url": "/react-developer-website/static/media/icon-javascript.38f85a9f.svg"
-  },
-  {
-    "revision": "723049cb32542bec757e91d7362cb8cc",
-    "url": "/react-developer-website/static/media/icon-link.723049cb.svg"
   },
   {
     "revision": "996265ec708f747deb80c51abbb01965",
