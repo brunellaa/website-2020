@@ -1,4 +1,4 @@
-@import "../../sass/variables";
+@import '../../sass/variables';
 
 .background-container {
   pointer-events: none;
@@ -16,7 +16,7 @@
     position: absolute;
     height: 85vw;
     width: 85vw;
-    border: 3px solid $primary + 8f;
+    border: 3px solid rgba($primary, 0.8);
     transform: translate(-50%, -50%) rotate(var(--rot)) scale(0.94);
   }
 }
