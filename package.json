@@ -1,5 +1,5 @@
 {
-  "homepage": "http://brunellaa.github.io/react-developer-website",
+  "homepage": "http://brunellaa.github.io/website-2020",
   "name": "react-developer-website",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +12,7 @@
     "react-dom": "^16.13.1",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.1"
   },
   "scripts": {
