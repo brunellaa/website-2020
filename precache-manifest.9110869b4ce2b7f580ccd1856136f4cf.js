@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76042d5fc13c763a48b77a1ce45c302c",
+    "revision": "f393025ef845446828340034b0458728",
     "url": "/react-developer-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-developer-website/static/css/2.3ab4c7df.chunk.css"
   },
   {
-    "revision": "7011bdd281a09ae8baaf",
-    "url": "/react-developer-website/static/css/main.cf6c30df.chunk.css"
+    "revision": "da9989f5c6833712ddd4",
+    "url": "/react-developer-website/static/css/main.28607db1.chunk.css"
   },
   {
     "revision": "7c41ee3d95d06baac4a8",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-developer-website/static/js/2.b0dcfd02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7011bdd281a09ae8baaf",
-    "url": "/react-developer-website/static/js/main.3bc414b6.chunk.js"
+    "revision": "da9989f5c6833712ddd4",
+    "url": "/react-developer-website/static/js/main.024db305.chunk.js"
   },
   {
     "revision": "41b189359604a004789d",
@@ -56,20 +56,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-developer-website/static/media/icon-figma.4fac9180.svg"
   },
   {
-    "revision": "fc58ac60d9266b72702787987c602ccd",
-    "url": "/react-developer-website/static/media/icon-ft-codepen.fc58ac60.svg"
+    "revision": "aa16a01bd49cbd7ef6fbb15cfc4fe7ee",
+    "url": "/react-developer-website/static/media/icon-ft-codepen.aa16a01b.svg"
   },
   {
-    "revision": "eedd65c7f10a6f42de5be607479db895",
-    "url": "/react-developer-website/static/media/icon-ft-gh.eedd65c7.svg"
+    "revision": "bc18e394874ae4631dd1ca7456df5ae9",
+    "url": "/react-developer-website/static/media/icon-ft-gh.bc18e394.svg"
   },
   {
-    "revision": "d9a81e9e858088e312aeb43d01291ac3",
-    "url": "/react-developer-website/static/media/icon-ft-li.d9a81e9e.svg"
+    "revision": "c634da1d7ccbb337f67e717db0342b7a",
+    "url": "/react-developer-website/static/media/icon-ft-li.c634da1d.svg"
   },
   {
-    "revision": "a0455d8b1c0a6d9f5fca9108caebdfbc",
-    "url": "/react-developer-website/static/media/icon-ft-tw.a0455d8b.svg"
+    "revision": "fc01fadb15856483aea599a4a5557ceb",
+    "url": "/react-developer-website/static/media/icon-ft-tw.fc01fadb.svg"
   },
   {
     "revision": "79386a098849e35178a02305dfbf2e49",

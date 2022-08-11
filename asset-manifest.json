@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-developer-website/static/css/main.cf6c30df.chunk.css",
-    "main.js": "/react-developer-website/static/js/main.3bc414b6.chunk.js",
-    "main.js.map": "/react-developer-website/static/js/main.3bc414b6.chunk.js.map",
+    "main.css": "/react-developer-website/static/css/main.28607db1.chunk.css",
+    "main.js": "/react-developer-website/static/js/main.024db305.chunk.js",
+    "main.js.map": "/react-developer-website/static/js/main.024db305.chunk.js.map",
     "runtime-main.js": "/react-developer-website/static/js/runtime-main.ca5a0468.js",
     "runtime-main.js.map": "/react-developer-website/static/js/runtime-main.ca5a0468.js.map",
     "static/css/2.3ab4c7df.chunk.css": "/react-developer-website/static/css/2.3ab4c7df.chunk.css",
     "static/js/2.b0dcfd02.chunk.js": "/react-developer-website/static/js/2.b0dcfd02.chunk.js",
     "static/js/2.b0dcfd02.chunk.js.map": "/react-developer-website/static/js/2.b0dcfd02.chunk.js.map",
     "index.html": "/react-developer-website/index.html",
-    "precache-manifest.288ce2f33688ec14c7bac6cb3a47adb5.js": "/react-developer-website/precache-manifest.288ce2f33688ec14c7bac6cb3a47adb5.js",
+    "precache-manifest.9110869b4ce2b7f580ccd1856136f4cf.js": "/react-developer-website/precache-manifest.9110869b4ce2b7f580ccd1856136f4cf.js",
     "service-worker.js": "/react-developer-website/service-worker.js",
     "static/css/2.3ab4c7df.chunk.css.map": "/react-developer-website/static/css/2.3ab4c7df.chunk.css.map",
-    "static/css/main.cf6c30df.chunk.css.map": "/react-developer-website/static/css/main.cf6c30df.chunk.css.map",
+    "static/css/main.28607db1.chunk.css.map": "/react-developer-website/static/css/main.28607db1.chunk.css.map",
     "static/js/2.b0dcfd02.chunk.js.LICENSE.txt": "/react-developer-website/static/js/2.b0dcfd02.chunk.js.LICENSE.txt",
     "static/media/001.png": "/react-developer-website/static/media/001.95b59d53.png",
     "static/media/002.png": "/react-developer-website/static/media/002.4d9c4efb.png",
@@ -21,10 +21,10 @@
     "static/media/icon-ai.d39112b3.svg": "/react-developer-website/static/media/icon-ai.d39112b3.svg",
     "static/media/icon-css.fc9b7f66.svg": "/react-developer-website/static/media/icon-css.fc9b7f66.svg",
     "static/media/icon-figma.4fac9180.svg": "/react-developer-website/static/media/icon-figma.4fac9180.svg",
-    "static/media/icon-ft-codepen.fc58ac60.svg": "/react-developer-website/static/media/icon-ft-codepen.fc58ac60.svg",
-    "static/media/icon-ft-gh.eedd65c7.svg": "/react-developer-website/static/media/icon-ft-gh.eedd65c7.svg",
-    "static/media/icon-ft-li.d9a81e9e.svg": "/react-developer-website/static/media/icon-ft-li.d9a81e9e.svg",
-    "static/media/icon-ft-tw.a0455d8b.svg": "/react-developer-website/static/media/icon-ft-tw.a0455d8b.svg",
+    "static/media/icon-ft-codepen.aa16a01b.svg": "/react-developer-website/static/media/icon-ft-codepen.aa16a01b.svg",
+    "static/media/icon-ft-gh.bc18e394.svg": "/react-developer-website/static/media/icon-ft-gh.bc18e394.svg",
+    "static/media/icon-ft-li.c634da1d.svg": "/react-developer-website/static/media/icon-ft-li.c634da1d.svg",
+    "static/media/icon-ft-tw.fc01fadb.svg": "/react-developer-website/static/media/icon-ft-tw.fc01fadb.svg",
     "static/media/icon-html.79386a09.svg": "/react-developer-website/static/media/icon-html.79386a09.svg",
     "static/media/icon-javascript.38f85a9f.svg": "/react-developer-website/static/media/icon-javascript.38f85a9f.svg",
     "static/media/icon-node.996265ec.svg": "/react-developer-website/static/media/icon-node.996265ec.svg",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.ca5a0468.js",
     "static/css/2.3ab4c7df.chunk.css",
     "static/js/2.b0dcfd02.chunk.js",
-    "static/css/main.cf6c30df.chunk.css",
-    "static/js/main.3bc414b6.chunk.js"
+    "static/css/main.28607db1.chunk.css",
+    "static/js/main.024db305.chunk.js"
   ]
 }
